@@ -1,0 +1,149 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap");
+
+body {
+  font-size: 14px;
+  color: black;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+  height: 73px;
+  border-bottom: 1px solid #e5e9f2;
+  display: flex;
+  align-items: center;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin-right: 32px;
+  align-items: center;
+}
+
+.logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.logo-title {
+  margin-left: 10px;
+  font-weight: 900;
+  color: black;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 32px;
+  align-self: flex-end;
+}
+
+.list-item {
+  font-weight: 700;
+}
+
+.list-item a {
+  color: black;
+}
+
+.list-item a:hover {
+  color: gray;
+}
+.list-item a:active {
+  color: black;
+}
+
+.install-list {
+  display: flex;
+  column-gap: 12px;
+  margin-left: auto;
+}
+
+/*main*/
+.main {
+  padding: 197px 0;
+}
+
+.main-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  width: 540px;
+}
+
+.main-title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.main-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+.main-button {
+  margin-top: 32px;
+}
+
+.button {
+  background-color: #8c30f5;
+  display: inline-block;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.button:hover {
+  background-color: #6c05e3;
+}
+.button:active {
+  background-color: #8c30f5;
+  position: relative;
+  top: 1px;
+}
+
+.main-img img {
+  width: 524px;
+  height: 400px;
+}
+
+/*footer*/
+.footer {
+  height: 72px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.footer-content {
+  color: #d9dbe1;
+}
+.socials {
+  display: flex;
+  column-gap: 16px;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
